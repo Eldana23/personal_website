@@ -229,14 +229,14 @@
             const formData = new FormData(event.target);
             const name = formData.get('name');
             
-            // Simple success message (in a real site, this would send to a server)
+
             alert(`Thank you, ${name}! Your message has been received. I'll get back to you soon.`);
             
             // Reset form
             event.target.reset();
         }
 
-        // Smooth scrolling for better user experience
+        // Smooth scrolling 
         document.addEventListener('DOMContentLoaded', function() {
             // Add smooth transitions
             document.body.style.transition = 'all 0.3s ease';
